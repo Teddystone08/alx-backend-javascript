@@ -3,8 +3,8 @@
      * @param {string} code - code of the currency
      * @param {string} name - name of the currency
      */
-
-export default class Currency {
+    
+ export default class Currency {
    
     constructor(code, name) {
         this.code = code;
