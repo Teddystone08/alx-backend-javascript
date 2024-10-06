@@ -9,13 +9,12 @@ export default class HolbertonClassroom {
         this.length = length;
         this.students = students;
     }
-
-    //get the name of the classroom
+    // get the name of the classroom
     get name() {
         return this._name;
     }
-
-    //set the name of course
+    
+    // set the name of course
     set name(value) {
         if(typeof value !== 'string') {
             throw new TypeError('Name must be a string');
