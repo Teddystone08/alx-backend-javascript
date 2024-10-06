@@ -4,13 +4,12 @@
  * @param const, let true Or False
  * @returns boolean
  */
-export default function taskBlock(trueOrFalse)
-{
+export default function taskBlock(trueOrFalse){
 	const task = false;
 	const task2 = true;
 
-	if (trueOrFalse)
-	{
+	if (trueOrFalse){
+
 		const task = true;
 		const task2 = false;
 	}
