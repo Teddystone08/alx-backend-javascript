@@ -4,12 +4,6 @@ import Classroom from "./0-classroom.js";
  * @return: anarray of @linked Classroom
  */
 
-import ClassRoom from './0-classroom.js';
-
 export default function initializeRooms() {
-  return [
-    new ClassRoom(19),
-    new ClassRoom(20),
-    new ClassRoom(34),
-  ];
+    return [19, 20, 34].map((size) => new Classroom(size));
 }
