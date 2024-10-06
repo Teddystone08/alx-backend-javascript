@@ -1,10 +1,5 @@
-/**
- * Rep HolbertonCourse
- */
-
 export default class HolbertonClassroom {
     /**
-     * 
      * @param {string} name - name of the classroom 
      * @param {number} length  - length of the classroom
      * @param {object} students  - students of the classroom
