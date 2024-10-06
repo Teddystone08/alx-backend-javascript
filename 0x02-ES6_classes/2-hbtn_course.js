@@ -7,7 +7,7 @@ export default class HolbertonClassroom {
      * 
      * @param {string} name - name of the classroom 
      * @param {number} length  - length of the classroom
-     * @param {object} students 
+     * @param {object} students  - students of the classroom
      */
     constructor(name, length, students) {
         this.name = name;
