@@ -1,7 +1,14 @@
-import { set } from "express/lib/application";
-
+/**
+ * Rep HolbertonCourse
+ */
 export default class HolbertonClassroom {
-    constructor(name, length, students) 
+    /**
+     * 
+     * @param {string} name - name of the classroom 
+     * @param {number} length  - length of the classroom
+     * @param {object} students 
+     */
+    constructor(name, length, students) {
         this.name = name;
         this.length = length;
         this.students = students;
