@@ -1,4 +1,5 @@
 export default function getResponseFromAPI() 
 {
-    return new Promise((resolve, reject) => {});
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    return new Promise((_resolve, _reject) => {});
 } 
