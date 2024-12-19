@@ -5,5 +5,6 @@ import Classroom from "./0-classroom.js";
  */
 
 export default function initializeRooms() {
-    return [19, 20, 34].map((size) => new Classroom(size));
+	const Csizes = [9, 20, 34];
+	return Csizes.map(size => new ClassRoom(size));
 }
