@@ -16,7 +16,7 @@ const class2019 = new AlxClass(2019, 'San Francisco');
 const class2020 = new AlxClass(2020, 'San Francisco');
 
 export class StudentALX {
-  constructor(firstName, lastName, ALXClass) {
+  constructor(firstName, lastName, alxClass) {
     this._firstName = firstName;
     this._lastName = lastName;
     this._alxClass = alxClass;
