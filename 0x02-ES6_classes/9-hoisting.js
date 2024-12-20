@@ -19,19 +19,19 @@ export class StudentALX {
   constructor(firstName, lastName, ALXClass) {
     this._firstName = firstName;
     this._lastName = lastName;
-    this._ALXClass = ALXClass;
+    this._alxClass = alxClass;
   }
 
   get fullName() {
     return `${this._firstName} ${this._lastName}`;
   }
 
-  get ALXClass() {
-    return this._ALXClass;
+  get alxClass() {
+    return this._alxClass;
   }
 
   get fullStudentDescription() {
-    return `${this._firstName} ${this._lastName} - ${this._ALXClass.year} - ${this._ALXClass.location}`;
+    return `${this._firstName} ${this._lastName} - ${this._alxClass.year} - ${this._alxClass.location}`;
   }
 }
 const student1 = new StudentALX('Guillaume', 'Salva', class2020);
