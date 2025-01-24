@@ -7,5 +7,5 @@ app.get('/', (req, res) => {
 });
 
 app.get('/cart/:id([0-9]+)', (req, res) => {
-    res.end(`Payment method for cart ${req.params.id}`
+    res.end(`Payment method for cart ${req.params.id}`)
 });
